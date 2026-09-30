@@ -6,7 +6,7 @@
   "main":"src/index.js",
   "exports":"./src/index.js",
   "bin":{"oc-kicad":"src/cli.js"},
-  "scripts":{"check":"node --check src/index.js && node --check src/cli.js","test":"node --test tests/*.test.js","example":"node src/cli.js import tests/fixtures/divider.net --output examples/imported-divider.json"},
+  "scripts":{"check":"node --check src/index.js && node --check src/cli.js","test":"node --test tests/*.test.js","example":"node src/cli.js import tests/fixtures/divider.net --output imported-divider.json"},
   "keywords":["kicad","electronics","eda","netlist","interoperability"],
   "license":"MIT",
   "repository":{"type":"git","url":"git+https://github.com/opencircuitlabs/kicad-bridge.git"},
